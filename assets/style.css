@@ -2,9 +2,8 @@ body {
     padding: 30px;
     background-color: #dbe3eb;;
     color: #3b4954;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
   }
   
   header {
@@ -13,15 +12,44 @@ body {
     padding-bottom: 50px;
   }
 
-  .boxLayout {
+  #boxLayout {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 40px;
+    height: 100%;
+  } 
+
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  #typeBoxLayout {
+    padding-top: 10px;
+    border-top: 2px solid #c5ced3;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c5ced3;
+    
+  }
+  input {
+    border-style: dashed;
+    border-color: #c5ced3;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    color: #3b4954;
+    font-family: monospace;
+    height: 100px
+  }
+  input[type="text"]::placeholder {
+    color: #c5ced3;
   }
 
   .buttonLayout {
     display:flex;
     justify-content: center;
+    padding-top: 20px;
   }
   #button {
     color: #fffbfb;
